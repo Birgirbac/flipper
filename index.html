@@ -43,12 +43,12 @@
 <body>
 	<div id="gameContainer">
 		<canvas id="unity-canvas" data-pixel-art=""></canvas>
-		<script src="Build/dfs.loader.js"></script>
+		<script src="Build/Flipper.loader.js"></script>
 		<script>
 			createUnityInstance(document.querySelector("#unity-canvas"), {
-				dataUrl: "Build/dfs.data",
-				frameworkUrl: "Build/dfs.framework.js",
-				codeUrl: "Build/dfs.wasm",
+				dataUrl: "Build/Flipper.data",
+				frameworkUrl: "Build/Flipper.framework.js",
+				codeUrl: "Build/Flipper.wasm",
 				streamingAssetsUrl: "StreamingAssets",
 				companyName: "DefaultCompany",
 				productName: "Flippy",
